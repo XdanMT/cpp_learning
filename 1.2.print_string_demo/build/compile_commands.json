@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/wzj/wzj/repos/cpp_test/print_string_demo/build",
-  "command": "/usr/bin/g++   -I/home/wzj/wzj/repos/cpp_test/print_string_demo  -g   -o CMakeFiles/math.dir/main.cpp.o -c /home/wzj/wzj/repos/cpp_test/print_string_demo/main.cpp",
-  "file": "/home/wzj/wzj/repos/cpp_test/print_string_demo/main.cpp"
-}
-]

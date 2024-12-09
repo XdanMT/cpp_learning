@@ -1,5 +1,0 @@
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/2.input_output/build/CMakeFiles/rebuild_cache.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/2.input_output/build/CMakeFiles/edit_cache.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/2.input_output/build/CMakeFiles/demo_3.camera.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/2.input_output/build/CMakeFiles/demo_2.video.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/2.input_output/build/CMakeFiles/demo_1.img.dir

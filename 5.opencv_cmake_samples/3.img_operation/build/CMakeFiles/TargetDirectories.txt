@@ -1,6 +1,0 @@
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/3.img_operation/build/CMakeFiles/rebuild_cache.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/3.img_operation/build/CMakeFiles/4.drawing.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/3.img_operation/build/CMakeFiles/edit_cache.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/3.img_operation/build/CMakeFiles/3.shape_adjust.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/3.img_operation/build/CMakeFiles/2.filtering.dir
-/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/3.img_operation/build/CMakeFiles/1.color_format.dir
