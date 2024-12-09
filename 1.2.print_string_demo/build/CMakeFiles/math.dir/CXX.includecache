@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wzj/wzj/repos/cpp_test/print_string_demo/main.cpp
+iostream
+-
+method.h
+/home/wzj/wzj/repos/cpp_test/print_string_demo/method.h
+string
+-
+
+/home/wzj/wzj/repos/cpp_test/print_string_demo/method.h
+iostream
+-
+string
+-
+

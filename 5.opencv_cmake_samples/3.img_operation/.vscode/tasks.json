@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		// 1. cmake配置
+		{
+			"label": "cmake configure",
+			"type": "shell",
+			"command": "cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		// 2. cmake编译
+		{
+			"label": "cmake build",
+			"type": "shell",
+			"command": "cmake --build build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"dependsOn": [
+				"cmake configure"
+			]
+		},
+		// 3. 运行程序
+		{
+			"label": "run program",
+			"type": "shell",
+			"command": "build/${fileBasenameNoExtension}",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"dependsOn": [
+				"cmake build"
+			]
+		}
+	]
+}

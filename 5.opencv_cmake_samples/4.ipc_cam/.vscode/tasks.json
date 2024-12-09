@@ -1,0 +1,50 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "cmake configuration",
+			"type": "shell",
+			"command": "cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "cmake build",
+			"type": "shell",
+			"command": "cmake --build build",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"dependsOn": [
+				"cmake configuration"
+			]
+		},
+		{
+			"label": "run",
+			"type": "shell",
+			"command": "build/${fileBasenameNoExtension}",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"dependsOn": [
+				"cmake build"
+			]
+		}
+	]
+}

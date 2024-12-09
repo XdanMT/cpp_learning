@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my_library.h
+
+/home/wzj/wzj/repos/cpp_test/cmake_demo/src/main.cpp
+iostream
+-
+my_library.h
+/home/wzj/wzj/repos/cpp_test/cmake_demo/src/my_library.h
+string
+-
+

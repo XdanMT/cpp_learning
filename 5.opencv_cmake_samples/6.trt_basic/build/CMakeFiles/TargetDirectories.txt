@@ -1,0 +1,4 @@
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/build/CMakeFiles/rebuild_cache.dir
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/build/CMakeFiles/edit_cache.dir
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/build/CMakeFiles/runtime.dir
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/build/CMakeFiles/build.dir

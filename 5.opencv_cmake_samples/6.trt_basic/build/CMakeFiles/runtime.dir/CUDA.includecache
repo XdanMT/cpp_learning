@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/src/runtime.cu
+iostream
+-
+vector
+-
+fstream
+-
+cassert
+-
+cuda_runtime.h
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/src/cuda_runtime.h
+NvInfer.h
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/src/NvInfer.h
+

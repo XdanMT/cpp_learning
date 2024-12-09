@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wzj/wzj/repos/cpp_test/opencv_cmake_samples/6.trt_basic/src/build.cpp
+iostream
+-
+fstream
+-
+cassert
+-
+vector
+-
+NvInfer.h
+-
+
